@@ -1,0 +1,120 @@
+/*tag*/
+
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(193, 207, 192);
+
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    color: rgb(107, 122, 161) ;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(107, 122, 161) ;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(107, 122, 161) ;
+}
+p{
+    color: rgb(17, 50, 77);
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 50, 77);
+}
+hr{
+    color: rgb(178, 206, 176);
+    border-style: solid none none;
+    border-width: 2px;
+}
+
+/*class*/
+
+.topContainer{
+    background-color: rgb(193, 207, 192) ;
+    position: relative;
+    padding-top: 100px ;
+}
+.topContainer img{
+    background-color: rgb(193, 207, 192) ;
+    display: inline-block;
+}
+.middleContainer{
+    background-color: rgb(193, 207, 192) ;
+    margin-top: 80px;
+}
+.bottomContainer{
+    background-color: rgb(193, 207, 192) ;
+}
+.topCloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottomCloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.skillRow{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+.computerImg{
+    width: 35%;
+    float: left;
+    margin-right:40px;
+}
+.cameraImg{
+    width: 30%;
+    float: right;
+    margin-left:40px;
+}
+.footerLink{
+    padding: 60px;
+}
+.bottomContainer{
+    background-color: rgb(162, 190, 160);
+    margin-bottom: 0px;
+    padding: 30px;
+}
+.copy{
+    padding-top: 10px;
+    font-size: 0.7rem;
+}
+/*id*/
+#button{
+    color: rgb(17, 50, 77); 
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(17, 50, 77, 0.589);;
+    background-color: rgb(107, 122, 161);
+    padding:10px;
+    margin: 20px 0 60px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*selector*/
+
+a:hover{
+    text-decoration: none;
+    color: rgb(107, 122, 161);
+}
+#button:hover{
+    border-radius: 8;
+    background-color: rgba(107, 122, 161, 0.774);
+}
